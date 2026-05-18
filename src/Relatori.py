@@ -26,10 +26,10 @@ class SpeakerDisplay(Scene):
 
     def construct(self):
         speakers = [
-            Speaker("Cottignoli Marco", "4F"),
-            Speaker("Fracella Pietro", "4F"),
-            Speaker("Ryan Zullo", "Maggioli"),
-            Speaker("Zarri Nicolò", "3E"),
+            Speaker("Cottignoli Marco", "La Nascita dell'Open Source"),
+            Speaker("Fracella Pietro", "Tetris"),
+            Speaker("Ryan Zullo", "Boids: Una Poesia nel Cielo"),
+            Speaker("Zarri Nicolò", "La Chiave"),
             Speaker("Battaglia di funzioni", r"con la partecipazione di:\\Marco, Giacomo, Nicolas, Lorenzo, Giulia\&Lara"),
         ]
 
