@@ -30,6 +30,7 @@ class SpeakerDisplay(Scene):
             Speaker("Fracella Pietro", "Tetris"),
             Speaker("Ryan Zullo", "Boids: Una Poesia nel Cielo"),
             Speaker("Zarri Nicolò", "La Chiave"),
+            Speaker("Zarri Nicolò", "Il suono della chiave"),
             Speaker("Battaglia di funzioni", r"con la partecipazione di:\\Marco, Giacomo, Nicolas, Lorenzo, Giulia\&Lara"),
         ]
 
@@ -81,7 +82,7 @@ class SpeakerDisplay(Scene):
             self.play(Write(name), run_time=2)
             self.play(FadeIn(description, shift=UP * .3))
             for square in fibonacci[0]:
-                self.play(Create(square, run_time=0.5))
+                self.play(Create(square, run_time=0.2))
             
-            self.play(Create(fibonacci[1]), run_time=5)
+            self.play(Create(fibonacci[1]), run_time=2)
             self.wait()

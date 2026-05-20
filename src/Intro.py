@@ -1,5 +1,6 @@
 from manim import *
-from custom_mobjects import BoheldText, Tetraktys
+from custom_mobjects.BoheldText import BoheldText
+from custom_mobjects.Tetraktys import Tetraktys
 
 class Intro(Scene):
     def create_glow(self, vmobject: VMobject, rad=1, col=YELLOW):
@@ -24,12 +25,12 @@ class Intro(Scene):
         fg_color = ManimColor("#e4c8c8")
         shadow_color = ManimColor("#82001e")
 
-        title_fg = BoheldText("Seconda Notte Pitagorica", color=fg_color)\
+        title_fg = BoheldText("Notte Pitagorica", color=fg_color)\
             .scale(1.5)
         
         title = VGroup(title_fg)
 
-        subtitle_fg = BoheldText("Portatavi direttamente dagli studenti", color=fg_color)\
+        subtitle_fg = BoheldText("Portata a voi direttamente dagli studenti", color=fg_color)\
             .next_to(title, DOWN)\
             .scale_to_fit_width(self.camera.frame_width - 2.0)
         
@@ -108,9 +109,9 @@ class Intro(Scene):
         self.wait()
         self.play(Write(subtitle), run_time=3)
 
-        pascal_logo = ImageMobject(r"src/assets/imgs/loghi/pascal-white-logo-no-bg.png")
+        pascal_logo = ImageMobject(r"../assets/imgs/loghi/pascal-white-logo-no-bg.png")
         times = MathTex(r"\times")
-        pitagorici_logo = ImageMobject(r"src/assets/imgs/loghi/pitagorici-logo-upscaled-2x.png")
+        pitagorici_logo = ImageMobject(r"../assets/imgs/loghi/pitagorici-aps-logo.png")
         logo_header = Tex("Un'iniziativa di:")
         logo_row = Group(pascal_logo, times, pitagorici_logo)
         logos = Group(logo_row, logo_header)
