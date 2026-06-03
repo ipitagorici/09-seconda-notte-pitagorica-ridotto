@@ -2,7 +2,7 @@ from manim import *
 
 class Tetris(Scene):
     def construct(self):
-        tetris = ImageMobject("assets/imgs/Fracella/Tetris.png")
+        tetris = ImageMobject("../assets/imgs/Fracella/Tetris.png")
         
         self.play(FadeIn(tetris))
         

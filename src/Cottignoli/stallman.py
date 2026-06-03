@@ -2,7 +2,7 @@ from manim import *
 
 class Stallman(Scene):
     def construct(self):
-        stallman = ImageMobject("../../assets/imgs/Cottignoli/Stallman.png")
+        stallman = ImageMobject("../assets/imgs/Cottignoli/Stallman.png")
         
         richard_text = Tex("Richard", font_size=90)\
             .shift(LEFT*4).shift(UP*2)

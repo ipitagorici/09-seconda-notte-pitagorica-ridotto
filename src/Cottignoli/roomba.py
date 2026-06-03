@@ -2,8 +2,7 @@ from manim import *
 
 class Roomba(Scene):
     def construct(self):
-        roomba = ImageMobject("assets/imgs/Cottignoli/Roomba.png")\
-            .scale(0.5)
+        roomba = ImageMobject("../assets/imgs/Cottignoli/Roomba.png")
         
         self.play(FadeIn(roomba))
         
