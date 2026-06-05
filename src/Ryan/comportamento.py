@@ -2,7 +2,7 @@ from manim import *
 
 class ComportamentoEmergente(Scene):
     def construct(self):
-        comportamento = Text("Comportamento\nEmergente", font_size=80)
+        comportamento = Text("Comportamento Emergente", font_size=80)
         cursor = Rectangle(
             color = GREY_A,
             fill_color = GREY_A,

@@ -1,6 +1,6 @@
 from manim import *
 
-class ComportamentiEmergenti(Scene):
+class Domanda(Scene):
     def construct(self):
         domanda = Text("Cosa succede\nquando ogni individuo\nrinuncia ad un po' del suo io\nper diventare parte\ndi qualcosa di più grande?",
                     font_size=60)

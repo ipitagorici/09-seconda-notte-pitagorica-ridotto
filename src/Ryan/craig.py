@@ -2,7 +2,7 @@ from manim import *
 
 class CraigReynolds(Scene):
     def construct(self):
-        craig = ImageMobject("../assets/Ryan/CraigReynolds.png")\
+        craig = ImageMobject("../assets/imgs/Ryan/CraigReynolds.png")\
             .scale(4)
             
         self.play(FadeIn(craig))
