@@ -44,7 +44,7 @@ class OperatingSystemComponents(Scene):
         
         
         
-        self.next_section("kernel???")
+        self.next_section("kernel")
         
         self.play(FadeIn(
             Tex("?", font_size=300).set_color(GREEN).shift(DOWN*2),
