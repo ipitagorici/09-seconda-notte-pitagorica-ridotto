@@ -5,19 +5,19 @@ class Tetraminoes(Scene):
         tetraminoes = ImageMobject("../assets/imgs/Fracella/Tetraminoes.png")\
             .scale(0.75)\
             .shift(UP*.5)
-        t = Tex("T").set_color(BLACK)\
+        t = Tex("T")\
             .shift(UP)
-        o = Tex("O").set_color(BLACK)\
+        o = Tex("O")\
             .shift(UR*3).shift(RIGHT*1.5)
-        i = Tex("I").set_color(BLACK)\
+        i = Tex("I")\
             .shift(DOWN*2)
-        j = Tex("J").set_color(BLACK)\
+        j = Tex("J")\
             .shift(UL*3)
-        l = Tex("L").set_color(BLACK)\
+        l = Tex("L")\
             .shift(UP*3)
-        s = Tex("S").set_color(BLACK)\
+        s = Tex("S")\
             .shift(LEFT*4.5)
-        z = Tex("Z").set_color(BLACK)\
+        z = Tex("Z")\
             .shift(RIGHT*4.5)
         
         self.play(FadeIn(tetraminoes))

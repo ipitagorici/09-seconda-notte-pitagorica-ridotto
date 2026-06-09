@@ -3,7 +3,7 @@ from manim import *
 class Calcoli(Scene):
     def construct(self):
         grid = ImageMobject("../assets/imgs/Fracella/Grid.png")\
-            .shift(LEFT*2.5)
+            .shift(LEFT*2.5).set_opacity(2)
         
         step_1 = Tex(r"4 righe\\pulibili con\\10 pezzi")\
             .to_corner(UR)

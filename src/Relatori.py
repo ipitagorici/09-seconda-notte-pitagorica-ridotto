@@ -27,11 +27,11 @@ class SpeakerDisplay(Scene):
     def construct(self):
         speakers = [
             Speaker("Cottignoli Marco", "La Nascita dell'Open Source"),
-            Speaker("Fracella Pietro", "Tetris"),
+            Speaker("Fracella Pietro", "Il giochino delle figure che cadono"),
             Speaker("Ryan Zullo", "Boids: Una Poesia nel Cielo"),
             Speaker("Zarri Nicolò", "La Chiave"),
             Speaker("Zarri Nicolò", "Il suono della chiave"),
-            Speaker("Battaglia di funzioni", r"con la partecipazione di:\\Marco, Giacomo, Nicolas, Lorenzo, Giulia\&Lara"),
+            Speaker("Battaglia di funzioni", r"con la partecipazione di:\\Marco, Giacomo, Nicolas,\\Lorenzo, Giulia\&Lara, Samuele"),
         ]
 
         # Creazione oggetti - Serie di Fibonacci e Golden Ratio
